@@ -1,0 +1,11 @@
+.explore-resources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto auto auto;
+    padding: 20px;
+}
+a {
+    margin: 20px;
+}

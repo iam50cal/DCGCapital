@@ -40,13 +40,13 @@ nav li {
 }
 
 .hero {
-    background-image: url("/images/bull.png");
+    background: url("/images/bull.png") no-repeat;
     /* border: 1px solid red; */
-    background-size:cover;   
-    background-repeat: no-repeat;
+    background-size:contain;
     min-height: 1000px;
     display: block;
-    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
 }
 .second {
     display: flex;
@@ -119,7 +119,7 @@ footer {
     justify-content: center;
     padding: 15px;  
     flex-shrink: 0;
-    position: sticky;
+    /* position: fixed; */
     bottom: 0;
     /* border: 1px solid red; */
 
@@ -156,8 +156,9 @@ span {
 .newsletterContainer {
     margin: 2% auto auto auto;
     /* border: 5px solid pink; */
-    height: 30vh;
+    height: 35vh;
     max-width: 600px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 form {
     height: 100%;
@@ -167,6 +168,9 @@ fieldset {
     border: 1px solid #1D3D59;
     border-top-left-radius: 18px;
     border-bottom-right-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    padding: 15px;
 }
 #newsletter {
     display: flex;
@@ -197,3 +201,4 @@ fieldset {
     height: 40px;
     border-radius: 8px
 };
+
