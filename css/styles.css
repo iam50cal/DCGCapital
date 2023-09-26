@@ -243,3 +243,69 @@ and (-webkit-device-pixel-ratio: 3) {
         display: none;
     }
  }
+
+ @media only screen and (min-width: 412px)
+{
+    .hero {
+        min-height: 250px;
+        border: 1px solid red;
+        max-width: 400px;
+    }
+    .second {
+        height: 150px;
+        text-align: center;
+        border: 1px solid purple;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .container {
+        max-width: 400px;
+        height: 1400px;
+        border: 1px solid yellow;
+        margin-top: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landingSections {
+       max-width: 350px;
+        border: 1px solid yellow;
+        height: 500px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    #top{
+        align-items: center;
+    }
+    
+    #middle {
+        align-items: center;
+        height: 450px;
+    
+    }
+    #middle p {
+        text-align: center;
+    }
+    
+    #bottom {
+        align-items: center;
+        height: 350px;
+    }
+    #bottom p {
+        text-align: center;
+    }
+    p {
+        font-family: 'Montserrat', sans-serif;
+        color: #1D3D59;
+        width: 350px;
+        line-height: 25px;
+        font-size: 1.12rem;
+    }
+}
